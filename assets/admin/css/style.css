@@ -1,0 +1,277 @@
+/* REGULAR */
+
+.invImg
+{
+    width: 100px;
+    cursor: zoom-in;
+}
+
+html
+	{
+		width: 100%;
+		height: 100%;
+		margin:0px;
+		padding: 0px;	
+	}
+
+body
+	{
+		width: 100%;
+		height: 100%;
+		margin:0px;
+		padding: 0px;
+        position: absolute;
+	}
+
+nav ul
+	{
+		margin:0px;
+		padding: 0px;
+	}
+
+nav ul li
+	{
+		margin:0px;
+		padding: 0px;
+		list-style: none;
+	}
+
+nav ul li a
+	{
+		text-decoration: none;
+	}
+
+.ipt-label
+    {
+        color: #fff;
+    }
+/* LOGIN */
+
+#login-wrapper
+{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    background:#fff;
+    background-image: url(http://hdwallpaperbackgrounds.net/wp-content/uploads/2016/09/Background-Wallpaper-7.jpg);
+    background-size: cover;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+}
+
+/* PAGINATION NUMBER */
+
+.pagination
+{
+    width: 100%;
+    font-family: ubuntu;
+    text-align: center;
+}
+
+.pagination 
+b
+{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #4f6c2e;
+    color: #fff;
+}
+
+.pagination
+a
+{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #8bc34a;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.pagination
+a:hover
+{
+    background: #4f6c2e;
+}
+
+/* JQCONTENT */
+
+#jqContent
+{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(8, 7, 7, 0.74);
+    z-index: 999;
+    display: none;
+    overflow: auto;
+}
+
+#jqContent .ipt-title
+{
+    display: block;
+    color: #fff;
+    font-family: roboto;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#jqContent .close-jqContent
+{
+    background: #E91E63;
+    color: #fff;
+    font-family: roboto;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 6px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#jqContent .close-jqContent:hover
+{
+    background:#b02051;
+}
+
+/* HEADER */
+
+#gs-header
+{
+    width: 100%;
+    background: #c34a4a;
+    position: fixed;
+    z-index: 99;
+}
+
+#gs-header .gs-header-tw
+{
+    padding: 10px;
+    background: #414141;
+    width: 13%;
+    text-align: center;
+    font-weight: bold;
+    font-family: roboto;
+    color: #fff;
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#gs-header .gs-pw
+{
+ 	display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 12%;
+    padding-top: 7px;
+    padding-bottom: 0px;
+    font-size: 18px;
+    color: #fff;
+    font-family: ubuntu;
+
+}
+
+
+/* MENU FIXED */
+
+#gs-menu-wrapper
+{
+    width: 13%;
+    height: 100%;
+    position: fixed;
+    background: #2f2e2e;
+    z-index: 99;
+    margin-top: 41px;
+}
+
+#gs-menu-wrapper
+nav
+{
+	padding-top: 14px;
+}
+
+#gs-menu-wrapper
+.mm
+{
+    color: #c1c1c1;
+    font-family: ubuntu;
+    padding-left: 10px;
+    border-bottom: 1px solid#7f7f7f;
+    width: 100%;
+    display: block;
+    padding-bottom: 4px;
+}
+
+#gs-menu-wrapper
+nav ul li a
+{
+	color: #bdbdbd;
+    font-family: ubuntu;
+    width: 100%;
+    display: block;
+    padding: 7px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#gs-menu-wrapper
+nav ul li a:hover
+{
+	background: #8bc34a;
+	color: #fff;
+}
+
+#gs-menu-wrapper
+nav ul li span
+{
+	margin-right: 6px;
+}
+
+#gs-menu-wrapper .mm-toggle-child
+{
+	display: none;
+}
+
+
+/* CONTENT */
+
+#gs-content
+{
+    width: 80%;
+    padding: 8px;
+    background: #fff;
+    margin-left: 16%;
+    margin-top: 4%;
+    border-left: 2px solid#e8e8e8;
+}
+
+/* CONTENT PAGE TABLE */
+
+#gs-content .gs-page-data-wrapper
+{
+    margin-top: 20px;
+}
+
+#gs-content .gs-page-data-wrapper .data-title
+{
+    display: block;
+    font-family: roboto;
+    font-size: 20px;
+    color: #8bc34a;
+}
+

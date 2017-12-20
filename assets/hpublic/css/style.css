@@ -1,0 +1,606 @@
+/*************************************************************************
+*
+*	REGULAR STYLE
+*
+*************************************************************************/
+
+html
+{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	padding: 0px;
+}
+
+body
+{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	padding: 0px;
+	margin: 0px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.warning-ipt
+{
+display: block;
+    padding: 8px;
+    margin-top: 10px;
+    border: 1px solid#fff;
+    color: #fff;
+
+}
+
+#content
+{
+    margin: auto;
+    display: block;
+    position: relative;
+    padding: 5px;
+    font-family: work sans;
+    width: 1024px;
+    margin-top: 20px;
+    margin-bottom: 150px;
+}
+
+/*************************************************************************
+*
+*   HOME STYLE
+*
+*************************************************************************/
+
+.fac-wrapper
+{
+    text-align: center;
+}
+
+.fac-wrapper
+.content
+{
+display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+    width: 134px;
+    height: 77px;
+    text-align: center;
+}
+
+.fac-wrapper
+.content img
+{
+    width: 48px;
+}
+
+.fac-wrapper
+.content span
+{
+    display: block;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.reason-wrapper
+{
+text-align: center;
+    font-family: work sans;
+    background: url(http://bgfons.com/uploads/ornaments/ornaments_texture1131.jpg);
+    background-size: cover;
+    background-position: 0px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.reason-wrapper
+.blue
+{
+    background: rgba(23, 177, 236, 0.73);
+    color: #fff;
+    padding: 10px;
+}
+
+/*************************************************************************
+*
+*   JQCONTENT STYLE
+*
+*************************************************************************/
+
+#jqContent
+{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(8, 7, 7, 0.74);
+    z-index: 999;
+    display: none;
+    overflow: auto;
+}
+
+#jqContent .ipt-title
+{
+    display: block;
+    color: #fff;
+    font-family: Work Sans;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#jqContent .close-jqContent
+{
+    background: #E91E63;
+    color: #fff;
+    font-family: work sans;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 6px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#jqContent .close-jqContent:hover
+{
+    background:#b02051;
+}
+
+/*************************************************************************
+*
+*   COVER STYLE
+*
+*************************************************************************/
+
+#cover-wrapper
+{
+    height: 100%;
+    background: #3e3d3d;
+    background-image: url(https://images7.alphacoders.com/317/317196.jpg);
+    overflow: hidden;
+    background-size: cover;
+    background-position: 0px;
+}
+
+#cover-wrapper
+.black
+{
+    height: 100%;
+    background: rgba(56, 55, 55, 0.53);
+}
+
+#cover-wrapper
+.slogan
+{
+    font-family: work sans;
+    text-align: center;
+    padding-top: 12%;
+    color: #fff;
+    padding-bottom: 46px;
+
+}
+
+/*************************************************************************
+*
+*   MENU HEAD STYLE
+*
+*************************************************************************/
+
+#menu-head-wrapper
+{
+    padding: 18px;
+    background: #2f2e52;
+}
+
+#menu-head-wrapper
+.logo
+{
+    font-size: 20px;
+    color: #4b9ce2;
+    font-family: work sans;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#menu-head-wrapper
+.menu
+{
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+}
+
+#menu-head-wrapper
+.menu nav ul
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu-head-wrapper
+.menu nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#menu-head-wrapper
+.menu nav ul li a
+{
+    color: #fff;
+    font-family: karla;
+    font-size: 18px;
+    padding: 5px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+#menu-head-wrapper
+.menu nav ul li a:hover
+{
+    transition: 0.2s;
+    border-bottom: 1px solid#fff;
+    color: #fff;
+}
+
+/*************************************************************************
+*
+*   SEARCHFORM STYLE
+*
+*************************************************************************/
+
+.searchform-wrapper
+{
+    text-align: center;
+    width: 758px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(165, 165, 165, 0.49);
+    font-family: work sans;
+    position: relative;
+}
+
+.searchform-wrapper input
+{
+    width: 86%;
+    font-size: 17px;
+    padding: 9px;
+    border: 0px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding-left: 60px;
+}
+
+.searchform-wrapper button
+{
+    font-size: 17px;
+    padding: 9px;
+    border: 0px;
+    margin-left: -7px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    color: #fff;
+    background: #17b1ec;
+    transition: 0.2s;
+}
+
+.searchform-wrapper button:hover
+{
+    transition: 0.2s;
+    background: #129ed4;
+}
+
+/*************************************************************************
+*
+*   HOTEL PAGE STYLE
+*
+*************************************************************************/
+
+.hcontent-wrapper
+{
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.hcontent-wrapper
+.left
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+    background: transparent;
+    padding: 5px;
+    position: relative;
+}
+
+.hcontent-wrapper
+.hotel-content
+{
+    width: 29%;
+    display: inline-block;
+    vertical-align: top;
+    height: 277px;
+    background: transparent;
+    text-align: left;
+    margin-right: 19px;
+    margin-bottom: 26px;
+
+}
+
+.hcontent-wrapper
+.left
+.hotel-content:hover
+{
+    background: rgba(23, 177, 236, 0.09);
+    transition: 0.2s;
+}
+
+
+/*************************************************************************
+*
+*   HOTEL SINGLE STYLE
+*
+*************************************************************************/
+
+.single-hotel-wrapper
+{
+    overflow: hidden;
+    position: relative;
+}
+
+.single-hotel-wrapper
+.left
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.single-hotel-wrapper
+.right
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+    max-height:400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.single-hotel-wrapper
+.right
+.price
+{
+    display: block;
+    vertical-align: top;
+    text-align: center;
+    margin-top: -16px;
+    width: 137px;
+    margin: 10px;
+}
+
+.single-hotel-wrapper
+.right
+.price
+.hbtn-price
+{
+padding: 10px;
+    background: #81ce1c;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.single-hotel-wrapper
+.right
+.info-wrapper
+{
+    padding-left: 10px;
+    height: 238px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.single-fac-hotel
+{
+    padding: 10px;
+    border-top: 2px solid#e2e2e2;
+    margin-top: 16px;
+}
+
+.single-fac-hotel
+.content
+{
+    width: 24%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 3px;
+    margin-bottom: 11px;
+}
+
+.single-fac-hotel
+.content img
+{
+    width: 32px;
+}
+
+
+.reserve-hotel-wrapper
+{
+    width: 100%;
+    background: #9996f1;
+    padding: 10px;
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.time-left
+{
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #2f2e52;
+    color: #fff;
+    border-radius: 3px;
+    border: 2px solid#1a6988;
+}
+
+
+.reserve-hotel-wrapper
+#datepicker
+{
+    display: inline-block;
+    width: 199px;
+    font-size: 18px;
+    padding: 21px;
+    vertical-align: top;
+}
+
+.reserve-hotel-wrapper
+#duration
+{
+    display: inline-block;
+    width: 199px;
+    font-size: 18px;
+    padding: 21px;
+    vertical-align: top;
+}
+
+/*************************************************************************
+*
+*   ORDER CHECK STYLE
+*
+*************************************************************************/
+
+.order-check-wrapper
+.right
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 72px;
+    border: 1px solid#17b1ec;
+    font-size: 15px;
+}
+
+.order-check-wrapper
+.left
+{
+    width: 40%; 
+    display: inline-block; 
+    vertical-align: top;
+}
+
+.order-check-wrapper
+.left
+.hbtn
+{
+ font-size: 20px;
+    padding: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 2px solid#17b1ec;
+    background: #17b1ec;
+    color: #fff;
+    border-radius: 3px;
+    transition: 0.2s;
+}
+
+.order-check-wrapper
+.left
+.hbtn:hover
+{
+    border: 2px solid#1b87b1;
+    transition: 0.2s;
+}
+
+.order-check-wrapper
+.left
+.ipt-content
+{
+    position: relative;
+}
+
+.order-check-wrapper
+.left input
+{
+width: 100%;
+        font-size: 18px;
+        padding-bottom: 5px;
+        border: none;
+        border-bottom: 1px solid#ccecf9;
+        outline: none;
+}
+
+.order-check-wrapper
+.left
+.placeholder
+{
+    position: absolute;
+    pointer-events: none;
+    left: 0px;
+    top: 1px;
+    transition: 0.2s ease all;
+    color: #a7a7a7;
+}
+
+input:focus ~ .placeholder{
+ font-size: 14px;
+    margin-top: -29px;
+
+}
+
+input:not(:focus) ~ .placeholder{
+  font-size: 20px;
+}
+
+input:not(:focus):valid ~ .placeholder{
+ font-size: 14px;
+    margin-top: -29px;
+}
+
+/*************************************************************************
+*
+*   FOOTER STYLE
+*
+*************************************************************************/
+
+#footer
+{
+    width: 100%;
+    background: #2f2e52;
+    padding: 10px;
+    font-family: work sans;
+    color: #fff;
+}
+
+#footer
+.footer-wrapper
+{
+    width: 1024px;
+    margin: auto;
+}
+
+#footer
+.footer-border
+{
+    margin-bottom: 13px;
+    border-bottom: 2px solid#424071;
+    padding-top: 15px;
+}

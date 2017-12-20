@@ -1,0 +1,256 @@
+/*************************************************************************
+*
+*	REGULAR STYLE
+*
+*************************************************************************/
+
+html
+{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	padding: 0px;
+}
+
+body
+{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	padding: 0px;
+	margin: 0px;
+}
+
+.warning-ipt
+{
+display: block;
+    padding: 8px;
+    margin-top: 10px;
+    border: 1px solid#fff;
+    color: #fff;
+
+}
+
+/*************************************************************************
+*
+*   JQCONTENT STYLE
+*
+*************************************************************************/
+
+#jqContent
+{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(8, 7, 7, 0.74);
+    z-index: 999;
+    display: none;
+    overflow: auto;
+}
+
+#jqContent .ipt-title
+{
+    display: block;
+    color: #fff;
+    font-family: Work Sans;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#jqContent .close-jqContent
+{
+    background: #E91E63;
+    color: #fff;
+    font-family: work sans;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 6px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#jqContent .close-jqContent:hover
+{
+    background:#b02051;
+}
+
+/*************************************************************************
+*
+*   NAVIGATION STYLE
+*
+*************************************************************************/
+
+#nav-wrapper
+{
+    width: 205px;
+    height: 100%;
+    position: fixed;
+    z-index: 99;
+    background: #041a25;
+    font-family: work sans;
+}
+
+#nav-wrapper label
+{
+    color: #fff;
+    display: block;
+    padding: 5px;
+    border-bottom: 2px solid#17506d;
+    text-align: center;
+    font-family: karla;
+}
+
+#nav-wrapper nav
+{
+    margin-top: 45px;
+}
+
+#nav-wrapper nav ul
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+#nav-wrapper nav ul li
+{
+    list-style: none;
+}
+
+#nav-wrapper nav ul li a
+{
+    display: block;
+    padding: 10px;
+    background: #0d253a;
+    color: #fff;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+#nav-wrapper nav ul li:nth-child(even) a
+{
+   background: #04213a; 
+}
+
+#nav-wrapper nav ul li a:hover
+{
+    transition: 0.2s;
+    background: #1b62a0;
+}
+
+/*************************************************************************
+*
+*   HEAD BAR STYLE
+*
+*************************************************************************/
+
+
+#head-bar-wrapper
+{
+    width: 84.9%;
+    background: #1c2427;
+    margin: auto;
+    position: relative;
+    margin-left: 15%;
+    padding: 10px;
+    font-family: work sans;
+}
+
+#head-bar-wrapper
+.page
+{
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*************************************************************************
+*
+*   CONTENT STYLE
+*
+*************************************************************************/
+
+#content-wrapper
+{
+    width: 79.9%;
+    background: #ffffff;
+    margin: auto;
+    position: relative;
+    margin-left: 17%;
+    padding: 10px;
+    font-family: work sans;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+
+/*************************************************************************
+*
+*   FACILITY STYLE
+*
+*************************************************************************/
+
+.fd-content
+{
+    width: auto;
+    height: auto;
+    background: #ffffff;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+    overflow: hidden;
+    border-radius: 4px;
+    text-align: center;
+    padding-top: 5px;
+    color: #464646;
+    margin-bottom: 7px;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+/*************************************************************************
+*
+*   INPUT HOTEL STYLE
+*
+*************************************************************************/
+
+.fd-scroll
+{
+padding: 10px;
+    max-height: 150px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.fd-scroll
+.fd-content
+{
+width: 100px;
+    height: 68px;
+    background: #ffffff;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+    overflow: hidden;
+    border-radius: 4px;
+    text-align: center;
+    padding-top: 5px;
+    color: #464646;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+.fd-scroll
+.active
+{
+    background: #104675;
+    color: #fff;
+}

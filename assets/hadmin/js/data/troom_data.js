@@ -1,0 +1,1 @@
+$('.datalist').load(bu+'cadmin/type_room_data');
