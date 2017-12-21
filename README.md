@@ -8,9 +8,8 @@ ini hanyalah yang sesuai dengan saya banyangkan gimana proses pembayarannya dll.
 username : admin
 password : jikol123
 
-# fitur yang ane demen disini, countdown invoice nya dengan ajax request. efek samping server jadi berat akibat request terus2san.
 
-# fitur lainnya : 
+# Fitur : 
 - dashboard
 - membuat posting rental mobil
 - seat / tempat duduk
@@ -20,4 +19,6 @@ password : jikol123
 - bank untuk pembayaran si pemesan
 - cek pemesanan dengan ID PEMESANAN dan No.TELP
 - Dynamic menu dimana menu ini di ambil dari halaman yang dibuat
+
+fitur yang ane demen disini, countdown invoice nya dengan ajax request. efek samping server jadi berat akibat request terus2san.
 
