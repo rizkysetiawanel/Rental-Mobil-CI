@@ -144,7 +144,7 @@ class Invoice extends MY_Controller {
 			{
 				$result[] = array(
 							'title'		=> $row->name_inv,
-							'code'		=> '<a target="_blank" href="'.base_url().$row->code_inv.'">'.$row->code_inv.'</a>',
+							'code'		=> '<a target="_blank" href="'.base_url().'/invoice/'.$row->code_inv.'">'.$row->code_inv.'</a>',
 							'price'		=> 'Rp. '.rpCurrency($row->total_inv),
 							'proof' 	=> '<img src="'.base_url().'assets/hpublic/img_inv/'.$row->img_inv.'" invimg="'.$row->img_inv.'" style="width:84px; height:59px;">',
 							'date'		=> exDate($row->date_inv),
@@ -188,7 +188,7 @@ class Invoice extends MY_Controller {
 			{
 				$result[] = array(
 							'title'		=> $row->name_inv,
-							'code'		=> '<a target="_blank" href="'.base_url().$row->code_inv.'">'.$row->code_inv.'</a>',
+							'code'		=> '<a target="_blank" href="'.base_url().'/invoice/'.$row->code_inv.'">'.$row->code_inv.'</a>',
 							'price'		=> 'Rp. '.rpCurrency($row->total_inv+$row->penalty_inv),
 							'proof' 	=> '<img src="'.base_url().'assets/hpublic/img_inv/'.$row->img_inv.'" invimg="'.$row->img_inv.'">',
 							'date'		=> exDate($row->date_inv),
@@ -230,7 +230,7 @@ class Invoice extends MY_Controller {
 			{
 				$result[] = array(
 							'title'		=> $row->name_inv,
-							'code'		=> '<a target="_blank" href="'.base_url().$row->code_inv.'">'.$row->code_inv.'</a>',
+							'code'		=> '<a target="_blank" href="'.base_url().'/invoice/'.$row->code_inv.'">'.$row->code_inv.'</a>',
 							'price'		=> 'Rp. '.rpCurrency($row->total_inv),
 							'date'		=> exDate($row->date_inv),
 							'action'	=> '<div id="delete" class="btn btn-danger del" idbus="'.$row->id_inv.'">
