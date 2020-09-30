@@ -6,6 +6,10 @@ ini hanyalah yang sesuai dengan saya banyangkan gimana proses pembayarannya dll.
 
 # Admin Panel
 
+# use "yes" to display the email contact button,
+# "no" to display an "I'm not looking for work" message,
+# or remove the resume_looking_for_work option entirely
+# to leave blan
 http://localhost/root_folder/login
 
 # Admin dan Password
